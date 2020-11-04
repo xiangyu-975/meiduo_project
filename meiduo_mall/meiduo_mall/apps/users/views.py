@@ -54,6 +54,8 @@ class UserBrowseHistory(LoginRequiredJSONMixin, View):
         # 响应结果
         return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK'})
 
+        pass
+
     def get(self, request):
         # 获取登陆用户信息
         user = request.user
