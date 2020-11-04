@@ -19,6 +19,7 @@ from .utils import generate_verify_email_url, check_verify_email_token
 from . import constants
 from goods.models import SKU
 from carts.utils import merge_carts_cookies_redis
+import time
 
 # 创建日志器
 logger = logging.getLogger('django')
@@ -53,8 +54,6 @@ class UserBrowseHistory(LoginRequiredJSONMixin, View):
         pl.execute()
         # 响应结果
         return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK'})
-
-        pass
 
     def get(self, request):
         # 获取登陆用户信息
