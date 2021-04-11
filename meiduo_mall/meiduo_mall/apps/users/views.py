@@ -25,6 +25,11 @@ import time
 logger = logging.getLogger('django')
 
 
+class TestView(View):
+    def get(self, request):
+        return render(request, 'test.html')
+
+
 class UserBrowseHistory(LoginRequiredJSONMixin, View):
     '''用户的浏览记录'''
 
@@ -462,7 +467,7 @@ class LoginView(View):
         # 响应结果
         # 先取出next  用户中心页面会拼接next字段,发送请求登陆重定向到用户中心
         next = request.GET.get('next')
-        print(next)
+        # print(next)
         if next:
             response = redirect(next)
         else:

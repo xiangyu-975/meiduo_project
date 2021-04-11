@@ -17343,3 +17343,929 @@ INFO 2020-11-03 23:36:32,435 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200
 INFO 2020-11-03 23:36:34,173 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 68
 INFO 2020-11-03 23:36:34,226 basehttp 124 "GET /orders/success/?order_id=20201103233634000000003&payment_amount=7998.00&pay_method=2 HTTP/1.1" 200 3189
 INFO 2020-11-03 23:36:37,922 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 8067
+INFO 2020-11-05 14:42:01,283 basehttp 124 "GET / HTTP/1.1" 200 111427
+WARNING 2020-11-05 14:42:03,309 base 93 Not Found: /favicon.ico
+WARNING 2020-11-05 14:42:03,315 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 8063
+INFO 2020-11-05 14:42:04,484 basehttp 124 "GET /register/ HTTP/1.1" 200 5040
+INFO 2020-11-05 14:42:04,504 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2020-11-05 14:42:04,553 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 304 0
+INFO 2020-11-05 14:42:04,746 basehttp 124 "GET /image_codes/a38979cf-8def-44fd-8c93-3ee7723dcf6a/ HTTP/1.1" 200 2935
+INFO 2020-11-05 15:07:21,466 basehttp 124 "GET /usernames/itcast/count/ HTTP/1.1" 200 41
+WARNING 2020-11-05 16:26:36,425 base 93 Not Found: /index
+WARNING 2020-11-05 16:26:36,439 basehttp 124 "GET /index HTTP/1.1" 404 8045
+WARNING 2020-11-05 16:26:40,145 base 93 Not Found: /indes/
+WARNING 2020-11-05 16:26:40,156 basehttp 124 "GET /indes/ HTTP/1.1" 404 8048
+WARNING 2020-11-05 16:26:44,853 base 93 Not Found: /contens
+WARNING 2020-11-05 16:26:44,865 basehttp 124 "GET /contens HTTP/1.1" 404 8051
+WARNING 2020-11-05 16:26:47,948 base 93 Not Found: /contens/index
+WARNING 2020-11-05 16:26:47,955 basehttp 124 "GET /contens/index HTTP/1.1" 404 8069
+INFO 2020-11-05 16:26:50,920 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-11-05 23:06:39,604 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2020-11-05 23:06:40,179 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-11-05 23:06:40,351 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2020-11-05 23:06:41,654 basehttp 124 "GET /register/ HTTP/1.1" 200 5040
+INFO 2020-11-05 23:06:41,903 basehttp 124 "GET /image_codes/d01e5c3e-d170-4d29-b3d7-ea3c855c4fe3/ HTTP/1.1" 200 3283
+INFO 2020-11-05 23:06:42,608 basehttp 124 "GET /usernames/itcast/count/ HTTP/1.1" 200 41
+INFO 2020-11-05 23:06:48,892 basehttp 124 "GET /usernames/xiangyu1/count/ HTTP/1.1" 200 41
+INFO 2020-11-05 23:06:58,019 basehttp 124 "GET /mobiles/13598226246/count/ HTTP/1.1" 200 41
+INFO 2020-11-05 23:07:03,825 views 54 075628
+INFO 2020-11-05 23:07:03,877 basehttp 124 "GET /mobiles/13598226246/count/ HTTP/1.1" 200 41
+INFO 2020-11-05 23:07:04,012 basehttp 124 "GET /sms_codes/13598226246/?image_code=cngp&uuid=d01e5c3e-d170-4d29-b3d7-ea3c855c4fe3 HTTP/1.1" 200 63
+INFO 2020-11-05 23:08:04,046 basehttp 124 "GET /image_codes/1048f181-de3a-42c6-8e00-d41a697bdada/ HTTP/1.1" 200 3510
+INFO 2020-11-06 08:10:27,853 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-11-06 08:10:30,225 basehttp 124 "GET /login/ HTTP/1.1" 200 2922
+INFO 2020-11-06 08:10:31,656 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2020-11-06 08:10:31,974 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-11-06 08:10:33,879 basehttp 124 "GET /info/ HTTP/1.1" 200 5544
+INFO 2020-11-06 08:10:34,071 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 1297
+INFO 2020-11-06 08:10:39,254 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2020-11-06 08:10:39,608 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-11-06 08:10:41,298 basehttp 124 "GET /info/ HTTP/1.1" 302 0
+INFO 2020-11-06 08:10:41,315 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 2922
+INFO 2020-11-06 08:10:47,444 basehttp 124 "POST /login/?next=/info/ HTTP/1.1" 302 0
+INFO 2020-11-06 08:10:47,488 basehttp 124 "GET /info/ HTTP/1.1" 200 5544
+INFO 2020-11-06 08:10:47,636 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 1297
+INFO 2020-11-06 08:10:49,396 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 2922
+INFO 2020-11-06 08:15:01,463 basehttp 124 "GET /info/ HTTP/1.1" 200 5544
+INFO 2020-11-06 08:15:01,594 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 1297
+INFO 2020-11-06 08:15:03,746 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2020-11-06 08:15:04,027 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-11-06 08:15:05,367 basehttp 124 "GET /info/ HTTP/1.1" 302 0
+INFO 2020-11-06 08:15:05,378 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 2922
+INFO 2020-11-06 08:19:49,265 basehttp 124 "POST /login/?next=/info/ HTTP/1.1" 302 0
+INFO 2020-11-06 08:19:49,292 basehttp 124 "GET /info/ HTTP/1.1" 200 5544
+INFO 2020-11-06 08:19:49,506 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 1297
+WARNING 2020-11-06 08:19:52,167 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2020-11-06 08:20:01,280 basehttp 124 "GET /info/ HTTP/1.1" 200 5544
+WARNING 2020-11-06 08:20:01,679 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2020-11-06 08:20:01,704 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 1297
+INFO 2020-11-06 08:20:51,562 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2020-11-06 08:20:51,975 basehttp 124 "GET / HTTP/1.1" 200 111427
+WARNING 2020-11-06 08:20:52,602 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2020-11-06 08:20:54,719 basehttp 124 "GET /login/ HTTP/1.1" 200 2922
+WARNING 2020-11-06 08:20:55,029 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2020-11-06 08:21:12,304 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2020-11-06 08:21:14,277 basehttp 124 "GET /info/ HTTP/1.1" 302 0
+INFO 2020-11-06 08:21:14,300 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 2922
+WARNING 2020-11-06 08:21:14,571 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2020-11-06 08:34:35,517 base 93 Not Found: /login/index.html
+WARNING 2020-11-06 08:34:35,534 basehttp 124 "GET /login/index.html HTTP/1.1" 404 8078
+INFO 2020-11-06 08:34:39,914 basehttp 124 "POST /login/?next=/info/ HTTP/1.1" 302 0
+INFO 2020-11-06 08:34:39,970 basehttp 124 "GET /info/ HTTP/1.1" 200 5544
+INFO 2020-11-06 08:34:40,130 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 1297
+INFO 2020-11-06 08:34:42,526 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-11-06 08:34:43,797 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2020-11-06 08:34:44,125 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-11-06 08:34:45,688 basehttp 124 "GET /info/ HTTP/1.1" 302 0
+INFO 2020-11-06 08:34:45,705 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 2918
+WARNING 2020-11-06 08:35:46,426 base 93 Not Found: /login/index.html
+WARNING 2020-11-06 08:35:46,441 basehttp 124 "GET /login/index.html HTTP/1.1" 404 8078
+INFO 2020-11-06 08:35:50,557 basehttp 124 "POST /login/?next=/info/ HTTP/1.1" 302 0
+ERROR 2020-11-06 08:35:50,580 exception 118 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/contrib/auth/mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/meiduo_project/meiduo_mall/meiduo_mall/apps/users/views.py", line 398, in get
+    if request.user.is_authenticated():
+TypeError: 'bool' object is not callable
+ERROR 2020-11-06 08:35:50,732 basehttp 124 "GET /info/ HTTP/1.1" 500 92646
+INFO 2020-11-06 08:36:06,446 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 2918
+INFO 2020-11-06 10:10:17,157 basehttp 124 "GET /qq/login/?next=/info/ HTTP/1.1" 200 207
+INFO 2020-11-06 12:13:27,359 basehttp 124 "GET /login/ HTTP/1.1" 200 2918
+WARNING 2020-11-06 12:13:27,625 base 93 Not Found: /favicon.ico
+WARNING 2020-11-06 12:13:27,628 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 8063
+INFO 2020-11-06 12:13:29,025 basehttp 124 "GET /qq/login/?next=/ HTTP/1.1" 200 200
+INFO 2020-11-06 12:16:03,381 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-11-06 12:16:05,839 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2020-11-06 12:16:06,126 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-11-06 12:16:07,387 basehttp 124 "GET /login/ HTTP/1.1" 200 2918
+INFO 2020-11-06 12:16:08,521 basehttp 124 "GET /qq/login/?next=/ HTTP/1.1" 200 200
+WARNING 2020-11-06 12:20:15,415 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2020-11-06 12:20:18,121 basehttp 124 "GET /login/ HTTP/1.1" 200 2918
+WARNING 2020-11-06 12:20:18,455 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2020-11-06 12:20:22,089 basehttp 124 "GET /qq/login/?next=/ HTTP/1.1" 200 200
+WARNING 2020-11-06 12:35:19,706 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2020-11-06 12:35:20,885 basehttp 124 "GET /qq/login/?next=/ HTTP/1.1" 200 200
+INFO 2020-11-10 17:14:42,648 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-11-10 17:14:42,906 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+WARNING 2020-11-10 17:14:43,887 base 93 Not Found: /favicon.ico
+WARNING 2020-11-10 17:14:43,891 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 8063
+INFO 2020-11-10 17:14:53,048 basehttp 124 "GET /admin/ HTTP/1.1" 302 0
+ERROR 2020-11-10 17:14:53,099 exception 118 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: admin/login.html
+ERROR 2020-11-10 17:14:53,280 basehttp 124 "GET /admin/login/?next=/admin/ HTTP/1.1" 500 92194
+INFO 2020-11-10 17:14:54,050 basehttp 124 "GET /admin/ HTTP/1.1" 302 0
+ERROR 2020-11-10 17:16:25,947 exception 118 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: admin/login.html
+ERROR 2020-11-10 17:16:26,025 basehttp 124 "GET /admin/login/?next=/admin/ HTTP/1.1" 500 92201
+INFO 2020-11-10 17:16:29,191 basehttp 124 "GET /admin/ HTTP/1.1" 302 0
+ERROR 2020-11-10 17:16:29,207 exception 118 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: admin/login.html
+ERROR 2020-11-10 17:16:29,260 basehttp 124 "GET /admin/login/?next=/admin/ HTTP/1.1" 500 92066
+INFO 2020-11-10 17:16:52,510 basehttp 124 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 200 0
+INFO 2020-11-10 17:16:52,713 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 201 209
+INFO 2020-11-10 17:16:52,818 basehttp 124 "OPTIONS /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 0
+INFO 2020-11-10 17:16:52,823 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 0
+INFO 2020-11-10 17:16:52,844 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2020-11-10 17:16:52,853 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2020-11-10 17:16:52,862 basehttp 124 "OPTIONS /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 0
+INFO 2020-11-10 17:16:52,865 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2020-11-10 17:16:52,873 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2020-11-10 17:16:52,876 basehttp 124 "OPTIONS /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 0
+INFO 2020-11-10 17:16:52,949 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 31
+INFO 2020-11-10 17:16:52,951 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 31
+INFO 2020-11-10 17:16:52,958 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2020-11-10 17:16:53,023 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2020-11-10 17:16:53,057 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2020-11-10 17:16:53,069 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 55
+INFO 2020-11-10 17:16:53,089 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2020-11-10 17:16:53,111 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 961
+INFO 2020-11-10 17:18:08,950 basehttp 124 "OPTIONS /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2020-11-10 17:18:09,077 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 280
+INFO 2020-11-10 17:18:13,210 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2020-11-10 17:18:13,225 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2020-11-10 17:18:13,230 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2020-11-10 17:18:13,233 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2020-11-10 17:18:13,237 basehttp 124 "OPTIONS /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+WARNING 2020-11-10 17:18:13,246 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+WARNING 2020-11-10 17:18:13,251 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 401 35
+WARNING 2020-11-10 17:18:13,257 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+WARNING 2020-11-10 17:18:13,262 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 401 35
+INFO 2020-11-10 17:18:13,307 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 4074
+INFO 2020-11-10 17:19:17,329 basehttp 124 "OPTIONS /meiduo_admin/goods/1/specs/ HTTP/1.1" 200 0
+WARNING 2020-11-10 17:19:17,334 basehttp 124 "GET /meiduo_admin/goods/1/specs/ HTTP/1.1" 401 35
+WARNING 2020-11-10 17:19:19,357 basehttp 124 "GET /meiduo_admin/goods/1/specs/ HTTP/1.1" 401 35
+INFO 2020-11-10 17:19:31,359 basehttp 124 "OPTIONS /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2020-11-10 17:19:31,378 base 93 Not Found: /meiduo_admin/goods/
+WARNING 2020-11-10 17:19:31,380 basehttp 124 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 404 15922
+WARNING 2020-11-10 17:19:32,072 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+INFO 2020-11-10 17:19:32,077 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2020-11-10 17:19:32,084 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+WARNING 2020-11-10 17:19:32,089 base 93 Not Found: /meiduo_admin/goods/specs/
+WARNING 2020-11-10 17:19:32,091 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 404 15940
+INFO 2020-11-10 17:19:32,616 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+INFO 2020-11-10 17:19:32,624 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+INFO 2020-11-10 17:19:32,634 basehttp 124 "OPTIONS /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2020-11-10 17:19:32,642 base 93 Not Found: /meiduo_admin/goods/specs/simple/
+WARNING 2020-11-10 17:19:32,649 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 404 15938
+WARNING 2020-11-10 17:19:32,649 base 93 Not Found: /meiduo_admin/specs/options/
+WARNING 2020-11-10 17:19:32,657 basehttp 124 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 404 15946
+WARNING 2020-11-10 17:19:32,669 base 93 Not Found: /meiduo_admin/goods/specs/simple/
+WARNING 2020-11-10 17:19:32,671 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 404 15938
+INFO 2020-11-10 17:19:33,061 basehttp 124 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2020-11-10 17:19:33,075 basehttp 124 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2020-11-10 17:19:33,084 basehttp 124 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2020-11-10 17:19:33,087 basehttp 124 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2020-11-10 17:19:33,089 basehttp 124 "OPTIONS /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2020-11-10 17:19:33,093 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 401 35
+WARNING 2020-11-10 17:19:33,097 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 401 35
+WARNING 2020-11-10 17:19:33,105 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 401 35
+WARNING 2020-11-10 17:19:33,116 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 401 35
+INFO 2020-11-10 17:19:33,154 basehttp 124 "GET /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 200 1294
+WARNING 2020-11-10 17:19:33,853 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 401 35
+WARNING 2020-11-10 17:19:33,868 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 401 35
+INFO 2020-11-10 17:19:33,876 basehttp 124 "OPTIONS /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2020-11-10 17:19:33,903 base 93 Not Found: /meiduo_admin/goods/brands/
+WARNING 2020-11-10 17:19:33,911 basehttp 124 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 404 15943
+WARNING 2020-11-10 17:19:34,267 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 401 35
+WARNING 2020-11-10 17:19:34,289 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 401 35
+WARNING 2020-11-10 17:19:34,301 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 401 35
+WARNING 2020-11-10 17:19:34,306 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 401 35
+INFO 2020-11-10 17:19:34,334 basehttp 124 "GET /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 200 1294
+INFO 2020-11-10 17:19:34,899 basehttp 124 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2020-11-10 17:19:34,903 basehttp 124 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2020-11-10 17:19:34,906 basehttp 124 "OPTIONS /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2020-11-10 17:19:34,911 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 401 35
+WARNING 2020-11-10 17:19:34,920 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 401 35
+INFO 2020-11-10 17:19:34,958 basehttp 124 "GET /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 1838
+WARNING 2020-11-10 17:19:35,900 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 401 35
+WARNING 2020-11-10 17:19:35,907 base 93 Not Found: /meiduo_admin/goods/brands/
+WARNING 2020-11-10 17:19:35,907 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 401 35
+WARNING 2020-11-10 17:19:35,915 basehttp 124 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 404 15943
+WARNING 2020-11-10 17:19:36,871 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 401 35
+WARNING 2020-11-10 17:19:36,872 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 401 35
+WARNING 2020-11-10 17:19:36,895 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 401 35
+WARNING 2020-11-10 17:19:36,904 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 401 35
+INFO 2020-11-10 17:19:36,946 basehttp 124 "GET /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 200 1294
+INFO 2020-11-10 17:19:38,094 basehttp 124 "OPTIONS /meiduo_admin/goods/channels/1/ HTTP/1.1" 200 0
+WARNING 2020-11-10 17:19:38,138 basehttp 124 "GET /meiduo_admin/goods/channels/1/ HTTP/1.1" 401 35
+INFO 2020-11-10 17:19:50,159 basehttp 124 "OPTIONS /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+WARNING 2020-11-10 17:19:50,220 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 401 35
+INFO 2020-11-10 17:19:52,346 basehttp 124 "OPTIONS /meiduo_admin/permission/content_types/ HTTP/1.1" 200 0
+INFO 2020-11-10 17:19:52,353 basehttp 124 "OPTIONS /meiduo_admin/permission/content_types/ HTTP/1.1" 200 0
+INFO 2020-11-10 17:19:52,357 basehttp 124 "OPTIONS /meiduo_admin/permission/perms/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2020-11-10 17:19:52,364 base 93 Not Found: /meiduo_admin/permission/content_types/
+WARNING 2020-11-10 17:19:52,370 basehttp 124 "GET /meiduo_admin/permission/content_types/ HTTP/1.1" 404 15956
+WARNING 2020-11-10 17:19:52,370 base 93 Not Found: /meiduo_admin/permission/perms/
+WARNING 2020-11-10 17:19:52,374 basehttp 124 "GET /meiduo_admin/permission/perms/?page=1&pagesize=10 HTTP/1.1" 404 15955
+WARNING 2020-11-10 17:19:52,381 base 93 Not Found: /meiduo_admin/permission/content_types/
+WARNING 2020-11-10 17:19:52,383 basehttp 124 "GET /meiduo_admin/permission/content_types/ HTTP/1.1" 404 15956
+INFO 2020-11-10 17:19:52,986 basehttp 124 "OPTIONS /meiduo_admin/permission/simple/ HTTP/1.1" 200 0
+INFO 2020-11-10 17:19:52,993 basehttp 124 "OPTIONS /meiduo_admin/permission/simple/ HTTP/1.1" 200 0
+INFO 2020-11-10 17:19:52,998 basehttp 124 "OPTIONS /meiduo_admin/permission/groups/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2020-11-10 17:19:53,008 base 93 Not Found: /meiduo_admin/permission/simple/
+WARNING 2020-11-10 17:19:53,015 basehttp 124 "GET /meiduo_admin/permission/simple/ HTTP/1.1" 404 15935
+WARNING 2020-11-10 17:19:53,015 base 93 Not Found: /meiduo_admin/permission/groups/
+WARNING 2020-11-10 17:19:53,020 basehttp 124 "GET /meiduo_admin/permission/groups/?page=1&pagesize=10 HTTP/1.1" 404 15958
+WARNING 2020-11-10 17:19:53,028 base 93 Not Found: /meiduo_admin/permission/simple/
+WARNING 2020-11-10 17:19:53,029 basehttp 124 "GET /meiduo_admin/permission/simple/ HTTP/1.1" 404 15935
+INFO 2020-11-10 17:19:53,514 basehttp 124 "OPTIONS /meiduo_admin/permission/groups/simple/ HTTP/1.1" 200 0
+WARNING 2020-11-10 17:19:53,517 base 93 Not Found: /meiduo_admin/permission/simple/
+WARNING 2020-11-10 17:19:53,520 basehttp 124 "GET /meiduo_admin/permission/simple/ HTTP/1.1" 404 15935
+INFO 2020-11-10 17:19:53,522 basehttp 124 "OPTIONS /meiduo_admin/permission/groups/simple/ HTTP/1.1" 200 0
+INFO 2020-11-10 17:19:53,525 basehttp 124 "OPTIONS /meiduo_admin/permission/admins/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2020-11-10 17:19:53,534 base 93 Not Found: /meiduo_admin/permission/groups/simple/
+WARNING 2020-11-10 17:19:53,540 basehttp 124 "GET /meiduo_admin/permission/groups/simple/ HTTP/1.1" 404 15956
+WARNING 2020-11-10 17:19:53,540 base 93 Not Found: /meiduo_admin/permission/simple/
+WARNING 2020-11-10 17:19:53,553 basehttp 124 "GET /meiduo_admin/permission/simple/ HTTP/1.1" 404 15935
+WARNING 2020-11-10 17:19:53,561 base 93 Not Found: /meiduo_admin/permission/admins/
+WARNING 2020-11-10 17:19:53,569 basehttp 124 "GET /meiduo_admin/permission/admins/?page=1&pagesize=10 HTTP/1.1" 404 15958
+WARNING 2020-11-10 17:19:53,571 base 93 Not Found: /meiduo_admin/permission/groups/simple/
+WARNING 2020-11-10 17:19:53,573 basehttp 124 "GET /meiduo_admin/permission/groups/simple/ HTTP/1.1" 404 15956
+INFO 2020-11-19 08:01:34,312 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-11-19 08:01:34,486 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+WARNING 2020-11-19 08:01:35,717 base 93 Not Found: /favicon.ico
+WARNING 2020-11-19 08:01:35,722 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 8063
+INFO 2020-11-19 08:01:47,711 basehttp 124 "GET /login/ HTTP/1.1" 200 2918
+INFO 2020-11-19 08:01:58,042 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2020-11-19 08:01:58,405 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-11-19 08:02:37,427 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2020-11-19 08:02:38,195 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-11-19 08:02:39,583 basehttp 124 "GET /carts/ HTTP/1.1" 200 4304
+INFO 2020-11-19 08:02:39,593 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2020-11-19 08:02:41,915 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-11-19 08:02:43,811 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 102060
+INFO 2020-11-19 08:02:43,855 basehttp 124 "GET /static/js/list.js HTTP/1.1" 304 0
+WARNING 2020-11-19 08:02:44,098 base 93 Not Found: /list/115/1/undefined/carts/simple/
+WARNING 2020-11-19 08:02:44,109 basehttp 124 "GET /list/115/1/undefined/carts/simple/ HTTP/1.1" 404 8132
+INFO 2020-11-19 08:02:44,112 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 546
+INFO 2020-11-19 08:02:45,242 basehttp 124 "GET /detail/3/ HTTP/1.1" 200 105777
+INFO 2020-11-19 08:02:45,564 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 546
+INFO 2020-11-19 08:02:45,567 basehttp 124 "POST /browse_histories/ HTTP/1.1" 200 60
+WARNING 2020-11-19 08:02:45,621 base 93 Not Found: /carts/simple/
+WARNING 2020-11-19 08:02:45,629 base 93 Not Found: /comments/3/
+WARNING 2020-11-19 08:02:45,634 basehttp 124 "GET /comments/3/ HTTP/1.1" 404 8063
+WARNING 2020-11-19 08:02:45,639 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 8069
+INFO 2020-11-19 08:02:45,785 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2020-11-19 08:02:47,491 basehttp 124 "GET /detail/5/ HTTP/1.1" 200 105783
+INFO 2020-11-19 08:02:47,758 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 546
+INFO 2020-11-19 08:02:47,774 basehttp 124 "POST /browse_histories/ HTTP/1.1" 200 60
+WARNING 2020-11-19 08:02:47,804 base 93 Not Found: /carts/simple/
+WARNING 2020-11-19 08:02:47,826 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 8069
+WARNING 2020-11-19 08:02:47,828 base 93 Not Found: /comments/5/
+WARNING 2020-11-19 08:02:47,857 basehttp 124 "GET /comments/5/ HTTP/1.1" 404 8063
+INFO 2020-11-19 08:02:47,866 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2020-11-19 08:02:48,563 basehttp 124 "GET /detail/7/ HTTP/1.1" 200 105777
+INFO 2020-11-19 08:02:48,824 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 546
+INFO 2020-11-19 08:02:48,846 basehttp 124 "POST /browse_histories/ HTTP/1.1" 200 60
+WARNING 2020-11-19 08:02:48,877 base 93 Not Found: /carts/simple/
+WARNING 2020-11-19 08:02:48,878 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 8069
+WARNING 2020-11-19 08:02:48,885 base 93 Not Found: /comments/7/
+WARNING 2020-11-19 08:02:48,895 basehttp 124 "GET /comments/7/ HTTP/1.1" 404 8063
+INFO 2020-11-19 08:02:48,910 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2020-11-19 08:02:50,234 basehttp 124 "POST /carts/ HTTP/1.1" 200 29
+INFO 2020-11-19 08:02:51,727 basehttp 124 "GET /carts/ HTTP/1.1" 200 4570
+INFO 2020-11-19 10:37:27,612 basehttp 124 "GET /register/ HTTP/1.1" 200 5040
+INFO 2020-11-19 10:37:27,693 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 8313
+INFO 2020-11-19 10:37:27,942 basehttp 124 "GET /image_codes/daa57ae6-1072-4de0-9d59-6ea481f07b7a/ HTTP/1.1" 200 3027
+INFO 2020-11-19 10:37:28,655 basehttp 124 "GET /usernames/itcast/count/ HTTP/1.1" 200 41
+INFO 2020-11-19 10:41:23,163 basehttp 124 "GET /usernames/13337717632/count/ HTTP/1.1" 200 41
+INFO 2020-11-19 10:41:51,232 basehttp 124 "GET /usernames/13337717666/count/ HTTP/1.1" 200 41
+INFO 2020-11-19 10:42:14,499 basehttp 124 "GET /mobiles/13337717632/count/ HTTP/1.1" 200 41
+INFO 2020-11-19 10:42:18,761 basehttp 124 "GET /mobiles/13337717666/count/ HTTP/1.1" 200 41
+WARNING 2020-11-19 10:42:30,938 base 93 Not Found: /register/login.html
+WARNING 2020-11-19 10:42:30,941 basehttp 124 "GET /register/login.html HTTP/1.1" 404 8087
+INFO 2020-11-19 10:42:32,488 basehttp 124 "GET /image_codes/dd6d252b-fb7c-4f81-b254-f45b65691672/ HTTP/1.1" 200 3027
+INFO 2020-11-19 10:42:33,263 basehttp 124 "GET /usernames/itcast/count/ HTTP/1.1" 200 41
+INFO 2020-11-19 10:42:33,653 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-11-19 10:42:35,280 basehttp 124 "GET /login/ HTTP/1.1" 200 2918
+INFO 2020-11-19 10:42:46,706 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2020-11-19 10:42:46,998 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-11-19 10:50:37,722 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2020-11-19 10:50:38,015 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-11-19 10:50:38,919 basehttp 124 "GET /info/ HTTP/1.1" 302 0
+INFO 2020-11-19 10:50:38,931 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 2918
+INFO 2020-11-19 10:50:42,390 basehttp 124 "POST /login/?next=/info/ HTTP/1.1" 302 0
+INFO 2020-11-19 10:50:42,431 basehttp 124 "GET /info/ HTTP/1.1" 200 5563
+INFO 2020-11-19 10:50:42,455 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2020-11-19 10:50:42,566 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 41
+INFO 2020-11-19 11:05:57,261 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2020-11-19 11:05:57,534 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-11-19 11:05:59,141 basehttp 124 "GET /login/ HTTP/1.1" 200 2918
+INFO 2020-11-19 11:06:00,386 basehttp 124 "GET /qq/login/?next=/ HTTP/1.1" 200 200
+INFO 2020-11-19 11:06:29,531 basehttp 124 "GET /oauth_callback?code=A4789E854C01E9C0CC4F3628A2B972B7&state=%2F HTTP/1.1" 301 0
+INFO 2020-11-19 11:06:29,970 basehttp 124 "GET /oauth_callback/?code=A4789E854C01E9C0CC4F3628A2B972B7&state=%2F HTTP/1.1" 200 4308
+INFO 2020-11-19 11:06:30,036 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2020-11-19 11:06:30,069 basehttp 124 "GET /static/js/oauth_callback.js HTTP/1.1" 200 3336
+INFO 2020-11-19 11:06:30,086 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2020-11-19 11:06:30,089 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2020-11-19 11:06:30,223 basehttp 124 "GET /image_codes/c0bd841d-89e3-4ef3-b792-b63638fbb737/ HTTP/1.1" 200 3041
+WARNING 2020-11-19 11:06:30,261 base 93 Not Found: /favicon.ico
+WARNING 2020-11-19 11:06:30,265 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 8069
+INFO 2020-11-19 11:08:44,318 views 54 389114
+INFO 2020-11-19 11:08:44,391 basehttp 124 "GET /sms_codes/13337717666/?image_code=vbtc&uuid=c0bd841d-89e3-4ef3-b792-b63638fbb737 HTTP/1.1" 200 63
+INFO 2020-11-19 11:08:58,147 basehttp 124 "POST /oauth_callback/?code=A4789E854C01E9C0CC4F3628A2B972B7&state=%2F HTTP/1.1" 302 0
+INFO 2020-11-19 11:08:58,476 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-11-19 11:08:58,541 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2020-11-25 16:33:23,802 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-11-25 16:33:23,974 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2020-11-25 16:35:34,740 basehttp 124 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 200 0
+INFO 2020-11-25 16:35:34,933 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 201 209
+INFO 2020-11-25 16:35:35,114 basehttp 124 "OPTIONS /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 0
+INFO 2020-11-25 16:35:35,121 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 0
+INFO 2020-11-25 16:35:35,142 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2020-11-25 16:35:35,154 basehttp 124 "OPTIONS /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 0
+INFO 2020-11-25 16:35:35,156 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2020-11-25 16:35:35,159 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2020-11-25 16:35:35,164 basehttp 124 "OPTIONS /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 0
+INFO 2020-11-25 16:35:35,170 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2020-11-25 16:35:35,237 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 31
+INFO 2020-11-25 16:35:35,245 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 31
+INFO 2020-11-25 16:35:35,250 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2020-11-25 16:35:35,336 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2020-11-25 16:35:35,368 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2020-11-25 16:35:35,379 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 55
+INFO 2020-11-25 16:35:35,402 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2020-11-25 16:35:35,460 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 961
+INFO 2020-11-25 16:35:42,858 basehttp 124 "OPTIONS /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2020-11-25 16:35:42,925 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 280
+INFO 2020-11-25 16:35:45,947 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2020-11-25 16:35:45,958 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2020-11-25 16:35:45,964 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2020-11-25 16:35:45,969 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2020-11-25 16:35:45,982 basehttp 124 "OPTIONS /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+WARNING 2020-11-25 16:35:45,994 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+WARNING 2020-11-25 16:35:45,996 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 401 35
+WARNING 2020-11-25 16:35:46,001 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 401 35
+WARNING 2020-11-25 16:35:46,006 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 401 35
+INFO 2020-11-25 16:35:46,059 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 4074
+INFO 2020-11-25 16:35:53,588 basehttp 124 "OPTIONS /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+WARNING 2020-11-25 16:35:53,622 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 401 35
+INFO 2020-11-25 16:35:55,354 basehttp 124 "OPTIONS /meiduo_admin/permission/content_types/ HTTP/1.1" 200 0
+INFO 2020-11-25 16:35:55,366 basehttp 124 "OPTIONS /meiduo_admin/permission/content_types/ HTTP/1.1" 200 0
+INFO 2020-11-25 16:35:55,380 basehttp 124 "OPTIONS /meiduo_admin/permission/perms/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2020-11-25 16:35:55,394 base 93 Not Found: /meiduo_admin/permission/content_types/
+WARNING 2020-11-25 16:35:55,400 basehttp 124 "GET /meiduo_admin/permission/content_types/ HTTP/1.1" 404 15956
+WARNING 2020-11-25 16:35:55,399 base 93 Not Found: /meiduo_admin/permission/perms/
+WARNING 2020-11-25 16:35:55,404 basehttp 124 "GET /meiduo_admin/permission/perms/?page=1&pagesize=10 HTTP/1.1" 404 15955
+WARNING 2020-11-25 16:35:55,410 base 93 Not Found: /meiduo_admin/permission/content_types/
+WARNING 2020-11-25 16:35:55,413 basehttp 124 "GET /meiduo_admin/permission/content_types/ HTTP/1.1" 404 15956
+INFO 2020-11-25 16:35:56,591 basehttp 124 "OPTIONS /meiduo_admin/permission/simple/ HTTP/1.1" 200 0
+INFO 2020-11-25 16:35:56,596 basehttp 124 "OPTIONS /meiduo_admin/permission/simple/ HTTP/1.1" 200 0
+INFO 2020-11-25 16:35:56,601 basehttp 124 "OPTIONS /meiduo_admin/permission/groups/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2020-11-25 16:35:56,619 base 93 Not Found: /meiduo_admin/permission/simple/
+WARNING 2020-11-25 16:35:56,626 basehttp 124 "GET /meiduo_admin/permission/simple/ HTTP/1.1" 404 15935
+WARNING 2020-11-25 16:35:56,625 base 93 Not Found: /meiduo_admin/permission/groups/
+WARNING 2020-11-25 16:35:56,629 basehttp 124 "GET /meiduo_admin/permission/groups/?page=1&pagesize=10 HTTP/1.1" 404 15958
+WARNING 2020-11-25 16:35:56,635 base 93 Not Found: /meiduo_admin/permission/simple/
+WARNING 2020-11-25 16:35:56,637 basehttp 124 "GET /meiduo_admin/permission/simple/ HTTP/1.1" 404 15935
+INFO 2020-11-25 16:35:57,108 basehttp 124 "OPTIONS /meiduo_admin/permission/groups/simple/ HTTP/1.1" 200 0
+WARNING 2020-11-25 16:35:57,113 base 93 Not Found: /meiduo_admin/permission/simple/
+WARNING 2020-11-25 16:35:57,125 basehttp 124 "GET /meiduo_admin/permission/simple/ HTTP/1.1" 404 15935
+INFO 2020-11-25 16:35:57,127 basehttp 124 "OPTIONS /meiduo_admin/permission/groups/simple/ HTTP/1.1" 200 0
+INFO 2020-11-25 16:35:57,130 basehttp 124 "OPTIONS /meiduo_admin/permission/admins/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2020-11-25 16:35:57,137 base 93 Not Found: /meiduo_admin/permission/groups/simple/
+WARNING 2020-11-25 16:35:57,144 basehttp 124 "GET /meiduo_admin/permission/groups/simple/ HTTP/1.1" 404 15956
+WARNING 2020-11-25 16:35:57,144 base 93 Not Found: /meiduo_admin/permission/simple/
+WARNING 2020-11-25 16:35:57,154 basehttp 124 "GET /meiduo_admin/permission/simple/ HTTP/1.1" 404 15935
+WARNING 2020-11-25 16:35:57,153 base 93 Not Found: /meiduo_admin/permission/admins/
+WARNING 2020-11-25 16:35:57,173 basehttp 124 "GET /meiduo_admin/permission/admins/?page=1&pagesize=10 HTTP/1.1" 404 15958
+WARNING 2020-11-25 16:35:57,179 base 93 Not Found: /meiduo_admin/permission/groups/simple/
+WARNING 2020-11-25 16:35:57,184 basehttp 124 "GET /meiduo_admin/permission/groups/simple/ HTTP/1.1" 404 15956
+WARNING 2020-11-25 16:39:54,335 base 93 Not Found: /meiduo_admin/permission/groups/simple/
+WARNING 2020-11-25 16:39:54,354 basehttp 124 "GET /meiduo_admin/permission/groups/simple/ HTTP/1.1" 404 15956
+WARNING 2020-11-25 16:39:54,351 base 93 Not Found: /meiduo_admin/permission/admins/
+WARNING 2020-11-25 16:39:54,355 basehttp 124 "GET /meiduo_admin/permission/admins/?page=1&pagesize=10 HTTP/1.1" 404 15958
+WARNING 2020-11-25 16:39:54,357 base 93 Not Found: /meiduo_admin/permission/simple/
+WARNING 2020-11-25 16:39:54,361 basehttp 124 "GET /meiduo_admin/permission/simple/ HTTP/1.1" 404 15935
+WARNING 2020-11-25 16:39:54,397 base 93 Not Found: /meiduo_admin/permission/groups/simple/
+WARNING 2020-11-25 16:39:54,398 basehttp 124 "GET /meiduo_admin/permission/groups/simple/ HTTP/1.1" 404 15956
+WARNING 2020-11-25 16:39:54,401 base 93 Not Found: /meiduo_admin/permission/simple/
+WARNING 2020-11-25 16:39:54,404 basehttp 124 "GET /meiduo_admin/permission/simple/ HTTP/1.1" 404 15935
+ERROR 2020-11-25 16:39:59,926 exception 118 Internal Server Error: /meiduo_admin/orders/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/generics.py", line 171, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/pagination.py", line 200, in paginate_queryset
+    paginator = self.django_paginator_class(queryset, page_size).order_by('id')
+AttributeError: 'Paginator' object has no attribute 'order_by'
+ERROR 2020-11-25 16:40:00,064 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 500 20877
+INFO 2020-11-25 16:40:33,063 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+WARNING 2020-11-25 16:40:33,065 base 93 Not Found: /meiduo_admin/skus/categories/
+WARNING 2020-11-25 16:40:33,069 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 404 23
+WARNING 2020-11-25 16:40:33,097 base 93 Not Found: /meiduo_admin/skus/categories/
+WARNING 2020-11-25 16:40:33,101 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 404 23
+INFO 2020-11-25 16:40:33,107 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2020-11-25 16:40:33,135 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 4074
+INFO 2020-11-25 16:40:33,828 basehttp 124 "OPTIONS /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2020-11-25 16:40:33,852 base 93 Not Found: /meiduo_admin/goods/
+WARNING 2020-11-25 16:40:33,856 basehttp 124 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 404 15922
+INFO 2020-11-25 16:40:35,502 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2020-11-25 16:40:35,536 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+WARNING 2020-11-25 16:40:35,540 base 93 Not Found: /meiduo_admin/goods/specs/
+WARNING 2020-11-25 16:40:35,542 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 404 15940
+INFO 2020-11-25 16:40:35,567 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2020-11-25 16:40:36,288 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+INFO 2020-11-25 16:40:36,293 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+INFO 2020-11-25 16:40:36,299 basehttp 124 "OPTIONS /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2020-11-25 16:40:36,340 base 93 Not Found: /meiduo_admin/goods/specs/simple/
+WARNING 2020-11-25 16:40:36,350 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 404 15938
+WARNING 2020-11-25 16:40:36,355 base 93 Not Found: /meiduo_admin/specs/options/
+WARNING 2020-11-25 16:40:36,366 basehttp 124 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 404 15946
+WARNING 2020-11-25 16:40:36,369 base 93 Not Found: /meiduo_admin/goods/specs/simple/
+WARNING 2020-11-25 16:40:36,371 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 404 15938
+INFO 2020-11-25 16:40:36,896 basehttp 124 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2020-11-25 16:40:36,913 basehttp 124 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2020-11-25 16:40:36,916 basehttp 124 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2020-11-25 16:40:36,919 basehttp 124 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2020-11-25 16:40:36,930 basehttp 124 "OPTIONS /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2020-11-25 16:40:36,964 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2020-11-25 16:40:36,990 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2020-11-25 16:40:37,023 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2020-11-25 16:40:37,027 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2020-11-25 16:40:37,065 basehttp 124 "GET /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 200 1294
+INFO 2020-11-25 16:40:37,627 basehttp 124 "OPTIONS /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2020-11-25 16:40:37,650 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2020-11-25 16:40:37,660 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+WARNING 2020-11-25 16:40:37,665 base 93 Not Found: /meiduo_admin/goods/brands/
+WARNING 2020-11-25 16:40:37,667 basehttp 124 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 404 15943
+INFO 2020-11-25 16:40:38,400 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2020-11-25 16:40:38,405 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2020-11-25 16:40:38,438 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+INFO 2020-11-25 16:40:38,447 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2020-11-25 16:40:38,479 basehttp 124 "GET /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 200 1294
+WARNING 2020-11-25 16:40:39,193 base 93 Not Found: /meiduo_admin/goods/brands/
+INFO 2020-11-25 16:40:39,206 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 344
+WARNING 2020-11-25 16:40:39,208 basehttp 124 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 404 15943
+INFO 2020-11-25 16:40:39,211 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 200 975
+INFO 2020-11-25 16:40:39,910 basehttp 124 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2020-11-25 16:40:39,914 basehttp 124 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2020-11-25 16:40:39,917 basehttp 124 "OPTIONS /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2020-11-25 16:40:39,963 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+INFO 2020-11-25 16:40:39,987 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+INFO 2020-11-25 16:40:40,014 basehttp 124 "GET /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 1838
+INFO 2020-11-25 16:40:42,347 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 619
+INFO 2020-11-25 16:40:49,492 basehttp 124 "OPTIONS /meiduo_admin/orders/20190406122652000000001/ HTTP/1.1" 200 0
+INFO 2020-11-25 16:40:49,554 basehttp 124 "GET /meiduo_admin/orders/20190406122652000000001/ HTTP/1.1" 200 419
+INFO 2020-11-25 16:40:52,359 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 619
+INFO 2020-11-25 16:51:08,434 basehttp 124 "GET /wuhan/python18 HTTP/1.1" 301 0
+WARNING 2020-11-25 16:51:08,448 base 94 Method Not Allowed (GET): /wuhan/python18/
+WARNING 2020-11-25 16:51:08,458 basehttp 124 "GET /wuhan/python18/ HTTP/1.1" 405 0
+WARNING 2020-11-25 16:52:18,106 base 94 Method Not Allowed (GET): /wuhan/python18/
+WARNING 2020-11-25 16:52:18,125 basehttp 124 "GET /wuhan/python18/ HTTP/1.1" 405 0
+INFO 2020-11-25 16:52:46,557 basehttp 124 "GET /wuhan/python18/ HTTP/1.1" 200 191
+INFO 2020-11-25 16:53:26,490 basehttp 124 "GET /wuhan/python18/ HTTP/1.1" 200 224
+INFO 2020-11-25 16:59:37,762 basehttp 124 "GET /admin/ HTTP/1.1" 302 0
+ERROR 2020-11-25 16:59:37,771 exception 118 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: admin/login.html
+ERROR 2020-11-25 16:59:37,921 basehttp 124 "GET /admin/login/?next=/admin/ HTTP/1.1" 500 92194
+INFO 2020-11-25 16:59:38,784 basehttp 124 "GET /admin/ HTTP/1.1" 302 0
+ERROR 2020-11-25 16:59:38,788 exception 118 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: admin/login.html
+ERROR 2020-11-25 16:59:38,886 basehttp 124 "GET /admin/login/?next=/admin/ HTTP/1.1" 500 92066
+INFO 2020-11-25 17:00:57,400 basehttp 124 "GET /admin/ HTTP/1.1" 302 0
+ERROR 2020-11-25 17:00:57,404 exception 118 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: admin/login.html
+ERROR 2020-11-25 17:00:57,500 basehttp 124 "GET /admin/login/?next=/admin/ HTTP/1.1" 500 92066
+INFO 2020-11-25 17:01:02,896 basehttp 124 "GET /admin/ HTTP/1.1" 302 0
+ERROR 2020-11-25 17:01:02,900 exception 118 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/python/.virtualenvs/meiduo/lib/python3.5/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: admin/login.html
+ERROR 2020-11-25 17:01:02,997 basehttp 124 "GET /admin/login/?next=/admin/ HTTP/1.1" 500 92066
+WARNING 2020-11-25 17:03:00,872 base 93 Not Found: /meiduo_admin/skus/categories/
+INFO 2020-11-25 17:03:00,893 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+WARNING 2020-11-25 17:03:00,894 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 404 23
+WARNING 2020-11-25 17:03:00,946 base 93 Not Found: /meiduo_admin/skus/categories/
+WARNING 2020-11-25 17:03:00,952 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 404 23
+INFO 2020-11-25 17:03:00,963 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2020-11-25 17:03:01,019 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 4074
+INFO 2020-11-25 17:03:01,601 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 619
+INFO 2020-11-25 17:03:16,871 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 102060
+WARNING 2020-11-25 17:03:16,917 base 93 Not Found: /static/js/list.js
+WARNING 2020-11-25 17:03:16,918 basehttp 124 "GET /static/js/list.js HTTP/1.1" 404 91
+INFO 2020-11-25 17:15:52,732 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 280
+WARNING 2020-11-25 17:15:56,947 base 93 Not Found: /meiduo_admin/skus/categories/
+WARNING 2020-11-25 17:15:56,956 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 404 23
+INFO 2020-11-25 17:15:56,975 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+WARNING 2020-11-25 17:15:56,991 base 93 Not Found: /meiduo_admin/skus/categories/
+WARNING 2020-11-25 17:15:56,994 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 404 23
+INFO 2020-11-25 17:15:57,006 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2020-11-25 17:15:57,028 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 4074
+INFO 2020-11-25 17:15:58,947 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 280
+INFO 2020-11-25 17:16:53,574 basehttp 124 "GET /carts/ HTTP/1.1" 200 4304
+INFO 2020-11-25 17:16:53,581 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2020-11-25 17:16:55,183 basehttp 124 "GET /login/ HTTP/1.1" 200 2918
+INFO 2020-11-25 17:16:56,812 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2020-11-25 17:16:57,302 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-11-25 17:17:01,181 basehttp 124 "GET /info/ HTTP/1.1" 200 5563
+INFO 2020-11-25 17:17:01,196 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2020-11-25 17:17:01,296 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 41
+INFO 2020-11-25 17:17:06,717 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8102
+INFO 2020-11-25 17:17:06,733 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 200 12058
+INFO 2020-11-25 17:17:06,855 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2020-11-29 22:23:33,724 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-11-29 22:23:34,017 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+WARNING 2020-11-29 22:23:36,010 base 93 Not Found: /favicon.ico
+WARNING 2020-11-29 22:23:36,021 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 8228
+INFO 2020-11-29 22:23:37,767 basehttp 124 "GET /info/ HTTP/1.1" 302 0
+INFO 2020-11-29 22:23:37,816 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 2918
+INFO 2020-11-29 22:23:40,305 basehttp 124 "POST /login/?next=/info/ HTTP/1.1" 302 0
+INFO 2020-11-29 22:23:40,359 basehttp 124 "GET /info/ HTTP/1.1" 200 5563
+INFO 2020-11-29 22:23:40,496 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 41
+INFO 2020-11-29 22:23:43,016 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8102
+INFO 2020-11-29 22:23:43,123 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2020-11-29 22:23:45,635 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2020-11-29 22:23:54,531 basehttp 124 "GET /areas/?area_id=310000 HTTP/1.1" 200 143
+INFO 2020-11-29 22:23:56,254 basehttp 124 "GET /areas/?area_id=310100 HTTP/1.1" 200 839
+INFO 2020-11-29 22:24:15,407 basehttp 124 "POST /addresses/create/ HTTP/1.1" 200 306
+INFO 2020-11-29 22:24:15,433 basehttp 124 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2020-11-29 22:24:20,595 basehttp 124 "PUT /addresses/4/default/ HTTP/1.1" 200 75
+INFO 2020-11-29 22:24:26,727 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8290
+WARNING 2020-11-29 22:24:26,875 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2020-11-29 22:24:26,960 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2020-11-30 10:49:12,773 basehttp 124 "GET /pass/ HTTP/1.1" 200 4841
+INFO 2020-11-30 10:49:12,809 basehttp 124 "GET /static/js/user_center_pass.js HTTP/1.1" 200 2025
+INFO 2020-11-30 11:16:46,788 basehttp 124 "POST /pass/ HTTP/1.1" 302 0
+INFO 2020-11-30 11:16:46,799 basehttp 124 "GET /login/ HTTP/1.1" 200 2918
+INFO 2020-11-30 11:16:51,389 basehttp 124 "POST /login/ HTTP/1.1" 200 2988
+INFO 2020-11-30 11:16:56,663 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2020-11-30 11:16:56,999 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-11-30 11:20:02,057 basehttp 124 "GET /info/ HTTP/1.1" 200 5563
+INFO 2020-11-30 11:20:02,083 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2020-11-30 11:20:02,386 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 41
+INFO 2020-11-30 11:20:03,267 basehttp 124 "GET /pass/ HTTP/1.1" 200 4841
+INFO 2020-11-30 11:20:16,402 basehttp 124 "POST /pass/ HTTP/1.1" 302 0
+INFO 2020-11-30 11:20:16,422 basehttp 124 "GET /login/ HTTP/1.1" 200 2918
+INFO 2020-11-30 11:20:20,090 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2020-11-30 11:20:20,395 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-11-30 22:10:52,855 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-11-30 22:11:08,364 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-11-30 22:11:11,052 basehttp 124 "GET / HTTP/1.1" 200 111427
+WARNING 2020-11-30 22:11:14,433 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2020-12-01 17:08:47,007 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-12-01 17:08:47,192 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2020-12-01 17:08:47,220 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2020-12-01 17:08:47,233 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2020-12-01 17:08:47,256 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2020-12-01 17:08:47,261 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2020-12-01 17:08:47,276 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2020-12-01 17:08:47,332 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2020-12-01 17:08:47,483 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2020-12-01 17:08:47,491 basehttp 124 "GET /static/js/index.js HTTP/1.1" 200 1184
+INFO 2020-12-01 17:08:47,719 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2020-12-01 17:08:48,948 base 93 Not Found: /favicon.ico
+WARNING 2020-12-01 17:08:48,955 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 8233
+WARNING 2020-12-01 17:08:50,983 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1677
+INFO 2020-12-01 17:14:56,724 basehttp 124 "GET / HTTP/1.1" 200 111427
+WARNING 2020-12-01 17:14:57,528 base 93 Not Found: /favicon.ico
+WARNING 2020-12-01 17:14:57,541 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 8228
+INFO 2020-12-01 17:15:09,519 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-12-02 15:44:13,606 basehttp 124 "GET / HTTP/1.1" 200 111427
+WARNING 2020-12-02 15:44:14,950 base 93 Not Found: /favicon.ico
+WARNING 2020-12-02 15:44:14,956 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 8228
+INFO 2020-12-02 15:44:19,836 basehttp 124 "GET /search/?q=i HTTP/1.1" 200 3929
+INFO 2020-12-02 15:44:19,874 basehttp 124 "GET /static/js/search.js HTTP/1.1" 200 171
+INFO 2020-12-02 15:44:22,937 basehttp 124 "GET /search/?q=iphone HTTP/1.1" 200 7237
+INFO 2020-12-02 15:44:32,514 basehttp 124 "GET /search/?q=%E5%8D%8E HTTP/1.1" 200 7267
+INFO 2020-12-03 11:21:54,426 basehttp 124 "GET / HTTP/1.1" 200 111427
+WARNING 2020-12-03 11:21:56,079 base 93 Not Found: /favicon.ico
+WARNING 2020-12-03 11:21:56,089 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 8228
+INFO 2020-12-03 11:21:57,653 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 102060
+INFO 2020-12-03 11:21:57,738 basehttp 124 "GET /static/js/list.js HTTP/1.1" 200 1934
+WARNING 2020-12-03 11:21:57,987 base 93 Not Found: /list/115/1/undefined/carts/simple/
+WARNING 2020-12-03 11:21:57,992 basehttp 124 "GET /list/115/1/undefined/carts/simple/ HTTP/1.1" 404 8297
+INFO 2020-12-03 11:21:58,010 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 546
+INFO 2020-12-03 11:21:58,990 basehttp 124 "GET /detail/3/ HTTP/1.1" 200 105777
+INFO 2020-12-03 11:21:59,301 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 546
+INFO 2020-12-03 11:21:59,317 basehttp 124 "POST /browse_histories/ HTTP/1.1" 200 60
+WARNING 2020-12-03 11:21:59,382 base 93 Not Found: /comments/3/
+WARNING 2020-12-03 11:21:59,382 base 93 Not Found: /carts/simple/
+WARNING 2020-12-03 11:21:59,387 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 8234
+WARNING 2020-12-03 11:21:59,391 basehttp 124 "GET /comments/3/ HTTP/1.1" 404 8228
+INFO 2020-12-03 11:21:59,598 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+WARNING 2020-12-03 11:22:01,825 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2020-12-05 09:45:15,349 basehttp 124 "GET /info/ HTTP/1.1" 302 0
+INFO 2020-12-05 09:45:15,670 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 2918
+INFO 2020-12-05 09:45:18,453 basehttp 124 "POST /login/?next=/info/ HTTP/1.1" 200 2988
+INFO 2020-12-05 09:45:22,407 basehttp 124 "POST /login/?next=/info/ HTTP/1.1" 302 0
+INFO 2020-12-05 09:45:22,511 basehttp 124 "GET /info/ HTTP/1.1" 200 5544
+INFO 2020-12-05 09:45:22,785 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 1297
+INFO 2020-12-05 09:45:26,736 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-12-05 09:45:26,864 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2020-12-05 09:45:29,573 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 102060
+INFO 2020-12-05 09:45:29,834 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 546
+WARNING 2020-12-05 09:45:29,916 base 93 Not Found: /list/115/1/undefined/carts/simple/
+WARNING 2020-12-05 09:45:29,919 basehttp 124 "GET /list/115/1/undefined/carts/simple/ HTTP/1.1" 404 8297
+INFO 2020-12-05 09:45:31,443 basehttp 124 "GET /detail/7/ HTTP/1.1" 200 105777
+INFO 2020-12-05 09:45:31,507 basehttp 124 "GET /static/js/detail.js HTTP/1.1" 304 0
+INFO 2020-12-05 09:45:31,752 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 546
+WARNING 2020-12-05 09:45:31,839 base 93 Not Found: /carts/simple/
+WARNING 2020-12-05 09:45:31,840 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 8234
+WARNING 2020-12-05 09:45:31,844 base 93 Not Found: /comments/7/
+INFO 2020-12-05 09:45:31,851 basehttp 124 "POST /browse_histories/ HTTP/1.1" 200 29
+WARNING 2020-12-05 09:45:31,856 basehttp 124 "GET /comments/7/ HTTP/1.1" 404 8228
+INFO 2020-12-05 09:45:31,882 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2020-12-05 09:45:32,535 basehttp 124 "GET /info/ HTTP/1.1" 200 5544
+INFO 2020-12-05 09:45:32,652 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 1327
+WARNING 2020-12-05 11:02:52,196 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2020-12-05 11:05:53,956 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2020-12-06 22:35:21,912 basehttp 124 "GET /carts/ HTTP/1.1" 200 4577
+INFO 2020-12-06 22:35:22,099 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+WARNING 2020-12-06 22:35:22,519 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2020-12-06 22:35:25,015 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-12-06 22:35:27,599 basehttp 124 "GET /carts/ HTTP/1.1" 200 4577
+INFO 2020-12-07 23:03:08,447 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 5195
+INFO 2020-12-07 23:03:10,840 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 68
+INFO 2020-12-07 23:03:10,945 basehttp 124 "GET /orders/success/?order_id=20201207230310000000003&payment_amount=7998.00&pay_method=2 HTTP/1.1" 200 3189
+INFO 2020-12-07 23:03:12,946 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 6894
+INFO 2020-12-07 23:03:12,963 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+WARNING 2020-12-07 23:05:02,824 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2020-12-07 23:05:40,949 basehttp 124 "GET /info/ HTTP/1.1" 200 5544
+INFO 2020-12-07 23:05:40,971 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2020-12-07 23:05:41,100 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 1327
+INFO 2020-12-07 23:05:42,997 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 6894
+INFO 2020-12-07 23:05:59,785 basehttp 124 "GET /info/ HTTP/1.1" 200 5544
+INFO 2020-12-07 23:05:59,933 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 1327
+INFO 2020-12-07 23:06:01,923 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 6894
+WARNING 2020-12-07 23:06:02,432 base 93 Not Found: /orders/info/1/user_center_order.html
+WARNING 2020-12-07 23:06:02,442 basehttp 124 "GET /orders/info/1/user_center_order.html HTTP/1.1" 404 8303
+WARNING 2020-12-07 23:06:05,038 base 93 Not Found: /orders/info/1/user_center_order.html
+WARNING 2020-12-07 23:06:05,048 basehttp 124 "GET /orders/info/1/user_center_order.html HTTP/1.1" 404 8303
+WARNING 2020-12-07 23:06:07,197 base 93 Not Found: /orders/info/1/user_center_info.html
+WARNING 2020-12-07 23:06:07,207 basehttp 124 "GET /orders/info/1/user_center_info.html HTTP/1.1" 404 8300
+INFO 2020-12-07 23:06:09,858 basehttp 124 "GET /info/ HTTP/1.1" 200 5544
+INFO 2020-12-07 23:06:10,003 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 1327
+INFO 2020-12-07 23:06:10,916 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8503
+INFO 2020-12-07 23:06:10,924 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2020-12-07 23:06:11,044 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2020-12-07 23:06:12,571 base 93 Not Found: /addresses/user_center_order.html
+WARNING 2020-12-07 23:06:12,582 basehttp 124 "GET /addresses/user_center_order.html HTTP/1.1" 404 8291
+INFO 2020-12-07 23:06:14,793 basehttp 124 "GET /info/ HTTP/1.1" 200 5544
+INFO 2020-12-07 23:06:14,926 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 1327
+INFO 2020-12-07 23:06:15,768 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 6894
+INFO 2020-12-07 23:54:36,226 basehttp 124 "GET /carts/ HTTP/1.1" 200 4577
+INFO 2020-12-07 23:54:37,245 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 5195
+INFO 2020-12-07 23:54:46,813 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 5195
+INFO 2020-12-07 23:58:50,423 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 68
+INFO 2020-12-07 23:58:50,466 basehttp 124 "GET /orders/success/?order_id=20201207235850000000003&payment_amount=7998.00&pay_method=2 HTTP/1.1" 200 3189
+WARNING 2020-12-07 23:58:58,080 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2020-12-07 23:59:23,128 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 5195
+INFO 2020-12-08 00:18:46,556 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 5195
+WARNING 2020-12-08 00:18:47,097 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2020-12-08 00:18:51,510 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 68
+INFO 2020-12-08 00:18:51,601 basehttp 124 "GET /orders/success/?order_id=20201208001851000000003&payment_amount=7998.00&pay_method=2 HTTP/1.1" 200 3189
+WARNING 2020-12-08 00:18:51,884 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2020-12-08 00:24:10,630 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 6894
+WARNING 2020-12-08 00:24:26,942 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2020-12-08 00:24:30,213 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2020-12-08 00:24:55,550 basehttp 124 "GET /payment/20201208001851000000003/ HTTP/1.1" 200 902
+WARNING 2020-12-08 00:25:04,930 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2020-12-08 00:25:08,915 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 6894
+WARNING 2020-12-08 00:25:09,159 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2020-12-08 00:25:16,498 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2020-12-08 00:25:20,254 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 6894
+WARNING 2020-12-08 00:25:20,430 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2020-12-08 00:31:20,488 basehttp 124 "GET /orders/info/2/ HTTP/1.1" 200 6894
+INFO 2020-12-08 00:31:22,531 basehttp 124 "GET /orders/info/3/ HTTP/1.1" 200 9240
+INFO 2020-12-08 00:31:27,319 basehttp 124 "GET /orders/info/2/ HTTP/1.1" 200 6894
+INFO 2020-12-08 00:31:29,339 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 6894
+INFO 2020-12-08 09:50:04,704 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 6894
+INFO 2020-12-08 11:47:43,505 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 6894
+INFO 2020-12-08 11:47:43,506 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 6894
+WARNING 2020-12-08 11:47:49,483 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2020-12-08 13:50:49,804 basehttp 124 "GET /orders/info/2/ HTTP/1.1" 200 6894
+WARNING 2020-12-08 13:56:27,374 base 93 Not Found: /orders/info/2/user_center_info.html
+WARNING 2020-12-08 13:56:27,401 basehttp 124 "GET /orders/info/2/user_center_info.html HTTP/1.1" 404 8300
+WARNING 2020-12-08 13:56:29,749 base 93 Not Found: /orders/info/2/user_center_site.html
+WARNING 2020-12-08 13:56:29,767 basehttp 124 "GET /orders/info/2/user_center_site.html HTTP/1.1" 404 8300
+WARNING 2020-12-08 13:56:31,511 base 93 Not Found: /orders/info/2/user_center_pass.html
+WARNING 2020-12-08 13:56:31,525 basehttp 124 "GET /orders/info/2/user_center_pass.html HTTP/1.1" 404 8300
+INFO 2020-12-08 13:56:34,141 basehttp 124 "GET /info/ HTTP/1.1" 200 5544
+INFO 2020-12-08 13:56:34,411 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 1327
+INFO 2020-12-08 13:56:35,691 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 6894
+WARNING 2020-12-08 14:07:41,200 base 93 Not Found: /orders/info/1/user_center_site.html
+WARNING 2020-12-08 14:07:41,214 basehttp 124 "GET /orders/info/1/user_center_site.html HTTP/1.1" 404 8300
+WARNING 2020-12-08 14:07:54,348 base 93 Not Found: /orders/info/1/user_center_order.html
+WARNING 2020-12-08 14:07:54,361 basehttp 124 "GET /orders/info/1/user_center_order.html HTTP/1.1" 404 8303
+INFO 2020-12-08 14:08:51,369 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 6847
+INFO 2020-12-08 14:08:52,049 basehttp 124 "GET /info/ HTTP/1.1" 200 5544
+INFO 2020-12-08 14:08:52,211 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 1327
+INFO 2020-12-08 14:08:53,235 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8503
+INFO 2020-12-08 14:08:53,403 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2020-12-08 14:08:53,745 base 93 Not Found: /addresses/user_center_order.html
+WARNING 2020-12-08 14:08:53,760 basehttp 124 "GET /addresses/user_center_order.html HTTP/1.1" 404 8291
+WARNING 2020-12-08 14:08:59,963 base 93 Not Found: /addresses/user_center_order.html
+WARNING 2020-12-08 14:08:59,984 basehttp 124 "GET /addresses/user_center_order.html HTTP/1.1" 404 8291
+INFO 2020-12-08 14:09:54,851 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8503
+INFO 2020-12-08 14:09:55,348 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2020-12-08 14:09:56,103 base 93 Not Found: /addresses/user_center_order.html
+WARNING 2020-12-08 14:09:56,120 basehttp 124 "GET /addresses/user_center_order.html HTTP/1.1" 404 8291
+INFO 2020-12-08 14:10:08,419 basehttp 124 "GET /info/ HTTP/1.1" 200 5544
+INFO 2020-12-08 14:10:08,637 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 1327
+INFO 2020-12-08 14:10:09,750 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 6847
+INFO 2020-12-08 14:10:55,891 basehttp 124 "GET /info/ HTTP/1.1" 200 5544
+INFO 2020-12-08 14:10:56,082 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 1327
+INFO 2020-12-08 14:10:57,129 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8503
+INFO 2020-12-08 14:10:57,206 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2020-12-08 14:10:58,711 base 93 Not Found: /addresses/user_center_order.html
+WARNING 2020-12-08 14:10:58,723 basehttp 124 "GET /addresses/user_center_order.html HTTP/1.1" 404 8291
+WARNING 2020-12-08 14:11:20,448 base 93 Not Found: /addresses/user_center_order.html
+WARNING 2020-12-08 14:11:20,475 basehttp 124 "GET /addresses/user_center_order.html HTTP/1.1" 404 8291
+WARNING 2020-12-08 14:11:21,652 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2020-12-08 14:11:23,457 base 93 Not Found: /addresses/user_center_order.html
+WARNING 2020-12-08 14:11:23,479 basehttp 124 "GET /addresses/user_center_order.html HTTP/1.1" 404 8291
+WARNING 2020-12-08 14:12:21,231 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2020-12-08 14:12:29,370 base 93 Not Found: /addresses/user_center_order.html
+WARNING 2020-12-08 14:12:29,382 basehttp 124 "GET /addresses/user_center_order.html HTTP/1.1" 404 8291
+WARNING 2020-12-08 14:13:01,993 base 93 Not Found: /addresses/user_center_order.html
+WARNING 2020-12-08 14:13:02,005 basehttp 124 "GET /addresses/user_center_order.html HTTP/1.1" 404 8291
+INFO 2020-12-08 14:13:23,513 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-12-08 14:13:23,580 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2020-12-08 14:13:23,584 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2020-12-08 14:13:23,603 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2020-12-08 14:13:23,621 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2020-12-08 14:13:23,622 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2020-12-08 14:13:23,628 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2020-12-08 14:13:23,657 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2020-12-08 14:13:23,660 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2020-12-08 14:13:23,728 basehttp 124 "GET /static/js/index.js HTTP/1.1" 200 1184
+INFO 2020-12-08 14:13:23,841 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2020-12-08 14:13:24,442 base 93 Not Found: /favicon.ico
+WARNING 2020-12-08 14:13:24,447 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 8228
+INFO 2020-12-08 14:13:25,190 basehttp 124 "GET /info/ HTTP/1.1" 302 0
+INFO 2020-12-08 14:13:25,254 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 2918
+INFO 2020-12-08 14:13:25,298 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2020-12-08 14:13:25,299 basehttp 124 "GET /static/js/login.js HTTP/1.1" 200 1560
+INFO 2020-12-08 14:13:25,356 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2020-12-08 14:13:25,357 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2020-12-08 14:13:25,390 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2020-12-08 14:13:27,865 basehttp 124 "POST /login/?next=/info/ HTTP/1.1" 302 0
+INFO 2020-12-08 14:13:27,927 basehttp 124 "GET /info/ HTTP/1.1" 200 5544
+INFO 2020-12-08 14:13:27,951 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 200 2888
+INFO 2020-12-08 14:13:27,973 basehttp 124 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2020-12-08 14:13:28,106 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 1327
+INFO 2020-12-08 14:13:28,130 basehttp 124 "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+INFO 2020-12-08 14:13:29,158 basehttp 124 "GET /orders/info/1/ HTTP/1.1" 200 6847
+INFO 2020-12-08 14:13:29,178 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 165
+INFO 2020-12-08 14:13:29,186 basehttp 124 "GET /static/css/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2020-12-08 14:13:29,187 basehttp 124 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2020-12-08 14:13:29,204 basehttp 124 "GET /static/js/user_center_order.js HTTP/1.1" 200 1240
+INFO 2020-12-08 14:13:31,810 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8503
+INFO 2020-12-08 14:13:31,833 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 200 12058
+INFO 2020-12-08 14:13:31,893 basehttp 124 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2020-12-08 14:13:31,896 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2020-12-08 14:13:33,218 base 93 Not Found: /addresses/user_center_order.html
+WARNING 2020-12-08 14:13:33,235 basehttp 124 "GET /addresses/user_center_order.html HTTP/1.1" 404 8291
+WARNING 2020-12-08 14:13:36,247 base 93 Not Found: /addresses/user_center_order.html
+WARNING 2020-12-08 14:13:36,261 basehttp 124 "GET /addresses/user_center_order.html HTTP/1.1" 404 8291
+WARNING 2020-12-08 15:22:34,076 base 93 Not Found: /addresses/cart.html
+WARNING 2020-12-08 15:22:34,087 basehttp 124 "GET /addresses/cart.html HTTP/1.1" 404 8252
+INFO 2020-12-08 15:23:34,480 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-12-08 15:23:35,714 basehttp 124 "GET /carts/ HTTP/1.1" 200 4577
+INFO 2020-12-08 15:23:35,741 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 200 8153
+INFO 2020-12-08 15:23:38,620 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 5195
+INFO 2020-12-08 15:23:38,634 basehttp 124 "GET /static/js/place_order.js HTTP/1.1" 200 2073
+INFO 2020-12-08 15:23:38,650 basehttp 124 "GET /static/images/pay_icons.png HTTP/1.1" 200 11917
+INFO 2020-12-08 15:23:39,980 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 68
+INFO 2020-12-08 15:23:40,048 basehttp 124 "GET /orders/success/?order_id=20201208152339000000003&payment_amount=7998.00&pay_method=2 HTTP/1.1" 200 3189
+INFO 2020-12-08 15:23:40,073 basehttp 124 "GET /static/js/order_success.js HTTP/1.1" 200 1034
+INFO 2020-12-08 15:23:40,083 basehttp 124 "GET /static/images/success.png HTTP/1.1" 200 2738
+INFO 2020-12-08 15:23:41,386 basehttp 124 "GET /payment/20201208152339000000003/ HTTP/1.1" 200 906
+INFO 2020-12-08 16:29:41,601 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-12-08 16:29:43,772 basehttp 124 "GET /carts/ HTTP/1.1" 200 4577
+INFO 2020-12-08 16:29:46,884 basehttp 124 "GET / HTTP/1.1" 200 111427
+INFO 2020-12-08 16:29:48,197 basehttp 124 "GET /carts/ HTTP/1.1" 200 4577

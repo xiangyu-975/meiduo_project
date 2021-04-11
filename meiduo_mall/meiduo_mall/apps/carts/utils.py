@@ -9,7 +9,7 @@ def merge_carts_cookies_redis(request, user, response):
     # 判断cookies中购物车数据是否存在
     if not cart_str:
         return response
-        # 将cart_str转为bytes类型的字符串
+    # 将cart_str转为bytes类型的字符串
     cookie_cart_str_bytes = cart_str.encode()
     # 将bytes类型的字符串转bytes类型的字典
     cookie_cart_dict_bytes = base64.b64decode(cookie_cart_str_bytes)

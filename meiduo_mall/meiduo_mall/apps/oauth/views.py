@@ -135,5 +135,6 @@ class QQAuthURLView(View):
                         redirect_uri=settings.QQ_REDIRECT_URI, state=next)
         # 获取QQ登陆页面网址,扫码链接
         login_url = oauth.get_qq_url()
+        print(login_url)
         # 响应
         return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK', 'login_url': login_url})
